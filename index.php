@@ -77,7 +77,7 @@
         <div class="post-preview">
           <a href="post.html">
             <h2 class="post-title">
-              <?php the_title('■','●'); ?>
+              <?php the_title(); ?>
             </h2>
             <h3 class="post-subtitle">
               Problems look mighty small from 150 miles up
