@@ -74,6 +74,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
+        <?php if (have_posts()): ?>
         <div class="post-preview">
           <a href="post.html">
             <h2 class="post-title">
@@ -131,6 +132,9 @@
         <div class="clearfix">
           <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
         </div>
+        <?php else: ?>
+          <p>記事が見つかりませんでした</p>
+        <?php endif; ?>
       </div>
     </div>
   </div>
